@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body dir="rtl">
+    <center>
+    <h1> דף הרשמה </h1>
+    <input type="text" placeholder="מה שמך ?" id="FullName">
+    <br>
+    <input type="text" placeholder="הכנס שם משתמש " id="UserName">
+    <br>
+    <input type="password" placeholder=" הכנס סיסמא " id="Password">
+    <br><br>
+    <button onclick="submit()">הירשם </button>
+
+    <script>
+
+function submit(){
+    let fullName = document.getElementById("FullName").value  // קיבלנו את שם הלקוח באתר
+    let userName = document.getElementById("UserName").value  // קיבלנו את שם המשתמש  הלקוח באתר
+    let password = document.getElementById("Password").value  // קיבלנו את הסיסמא  הלקוח באתר
+    localStorage.setItem("FullName" ,fullName)
+    localStorage.setItem("UserName" ,userName)
+    localStorage.setItem("Password" ,password)
+    window.location = "login.html"
+}
+</script>
+</center>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+#sectionD{
+    background: url("https://i.pinimg.com/736x/87/41/01/874101c93f78ad5f8c9ff7f55048a5ff.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 1300px;
+    border-radius: 10px;
+     gap: 9px;
+}
+#DDT{
+    background-color: rgba(255, 255, 255, 0.726);
+    width: 300px;
+}
+#arrow{
+    font-size: 20px;
+}
+#DSK{
+    background-color: rgba(255, 255, 255, 0.808);
+    width: 300px;
+}
+#MTD{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp6005476.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#VD{
+    background-color: rgba(255, 255, 255, 0.788);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    height: 800px;
+}
+a{
+color: rgb(26, 70, 0);
+font-size: 18px;
+}
